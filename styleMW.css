@@ -1,0 +1,86 @@
+body{
+    background-image: url("painting-mountain-lake-with-mountain-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#start{
+    text-align: center;
+    padding-top: 170px;
+    padding-bottom: 20px;
+    font-size: 4em;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    text-shadow: 5px 5px 3px black;
+    animation-name: goIn;
+    animation-duration: 1.5s;
+}
+
+p{
+    display: inline;
+    background-color: hsl(60, 100%, 80%, 0.7);
+    color: black;
+    text-shadow: none;
+    margin: 0;
+}
+
+@keyframes goIn {
+    0%{opacity: 0; transform: translateY(200%);}
+    100%{opacity: 1;}
+}
+
+#message{
+    background-color: hsla(0, 0%, 0%, 0.5);
+    font-family: Poppins;
+    font-size: 2em;
+    font-weight: 300;
+    padding: 100px;
+    text-align: center;
+    color: hsl(0, 0%, 70%);
+    animation-name: goIn;
+    animation-duration: 2s;
+}
+
+#button{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px black;
+    font-size: 1.5;
+    animation-name: goIn;
+    animation-duration: 2.5s;
+}
+
+.fa-solid.fa-rotate-right{
+    font-size: 2em;
+}
+
+.fa-solid.fa-rotate-right:hover{
+    animation-name: bigger;
+    animation-duration: 1s;
+    font-size: 240%;
+}
+
+@keyframes bigger {
+    30%{font-size: 240%;}
+    100%{transform: rotateZ(360deg);}
+}
+
+@keyframes smaller {
+    0%{font-size: 4em;}
+    100%{font-size: 2em;}
+}
+
+@keyframes quote {
+    0%{font-size: 2em; opacity: 0;}
+    100%{font-size: 4em; opacity: 1;}
+}
+
+@keyframes fadeAway {
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
