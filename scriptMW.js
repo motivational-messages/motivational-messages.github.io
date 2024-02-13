@@ -12,12 +12,10 @@ const messages = [
     "Be hearty in your approbation and lavish in your praise"
 ]
 
-let length = messages.length
-
 function myFunction() {
-    number = Math.floor(Math.random() * length);
+    number = Math.floor(Math.random() * messages.length);
 
-    message = document.getElementById("message").innerHTML = '"' + messages[length - 1] + '"'; document.getElementById("message").style.color = "white"; document.getElementById("message").style.fontSize = "4em";
+    message = document.getElementById("message").innerHTML = '"' + messages[number] + '"'; document.getElementById("message").style.color = "white"; document.getElementById("message").style.fontSize = "4em";
               document.getElementById("message").style.animationName = "quote"; document.getElementById("message").style.animationDuration = "1s"; document.getElementById("message").style.fontWeight = "800";
               document.getElementById("message").style.fontFamily = "Indie Flower"; document.getElementById("message").style.fontStyle = "italic"
 
