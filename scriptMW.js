@@ -9,7 +9,9 @@ const messages = [
     "We don’t only live once, we live everyday until we die once",
     "Don't be sad that it's over, be happy that it happened :)",
     "Believe, really believe, you can succeed, and you will",
-    "Be hearty in your approbation and lavish in your praise"
+    "Be hearty in your approbation and lavish in your praise",
+    "LET HIM COOK 🗣️🗣️🗣️🗣️🗣️🗣️",
+    "Failure is success, success is failure, the electron does not stay put. Good luck lol.",
 ]
 
 function myFunction() {
