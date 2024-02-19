@@ -12,6 +12,7 @@ const messages = [
     "Be hearty in your approbation and lavish in your praise",
     "LET HIM COOK 🗣️🗣️🗣️🗣️🗣️🗣️",
     "Failure is success, success is failure, the electron does not stay put. Good luck lol.",
+    "You only miss the chances you never take",
 
     // incoming 14 quotes not taken from the google form
     
