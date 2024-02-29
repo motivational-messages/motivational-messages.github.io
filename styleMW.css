@@ -65,8 +65,41 @@ p{
     font-size: 240%;
 }
 
+#promo{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px black;
+    font-size: 1.5;
+    animation-name: goIn;
+    animation-duration: 3.0s;
+
+}
+
+#form{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px black;
+    font-size: 1.5;
+    animation-name: goIn;
+    animation-duration: 3.5s;
+}
+a{
+    text-decoration: none;
+}
+
 @keyframes bigger {
     30%{font-size: 240%;}
+    100%{transform: rotateZ(360deg);}
+}
+
+@keyframes bigger2{
+    30%{font-size: 180%;}
     100%{transform: rotateZ(360deg);}
 }
 
