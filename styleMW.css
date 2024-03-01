@@ -8,7 +8,7 @@ body{
 
 #start{
     text-align: center;
-    padding-top: 170px;
+    padding-top: 130px;
     padding-bottom: 20px;
     font-size: 4em;
     font-family: 'Shadows Into Light', cursive;
@@ -46,7 +46,8 @@ p{
 #button{
     color: white;
     text-align: center;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     font-family: Poppins;
     font-weight: 600;
     text-shadow: 3px 3px 3px black;
