@@ -66,6 +66,7 @@ p{
 }
 
 #promo{
+    display: block;
     color: white;
     text-align: center;
     padding: 10px;
@@ -79,6 +80,7 @@ p{
 }
 
 #form{
+    display: block;
     color: white;
     text-align: center;
     padding: 10px;
