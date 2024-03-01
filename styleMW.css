@@ -93,6 +93,18 @@ a{
     text-decoration: none;
 }
 
+.fa-brands.fa-instagram:hover{
+    animation-name: bigger2;
+    animation-duration: 1s;
+    font-size: 180%
+}
+
+.fa-solid.fa-file-lines:hover{
+    animation-name: bigger2;
+    animation-duration: 1s;
+    font-size: 180%;
+}
+
 @keyframes bigger {
     30%{font-size: 240%;}
     100%{transform: rotateZ(360deg);}
